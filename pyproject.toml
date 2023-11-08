@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "illuasion"
+version = "0.1.0"
+description = "Lua decompiler on the server"
+authors = ["Michal Janočko <michal@janocko.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.4.2"
+fastapi = "^0.104.1"
+python-multipart = "^0.0.6"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.24.0.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
