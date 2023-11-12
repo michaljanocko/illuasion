@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "illuasion"
-version = "0.1.0"
+version = "1.0.0"
 description = "Lua decompiler on the server"
 authors = ["Michal Janočko <michal@janocko.com>"]
 license = "MIT"
